@@ -1,4 +1,5 @@
 
+import About from './components/About'
 import Clients from './components/Clients'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -12,9 +13,10 @@ import Testimonials from './components/Testimonials'
 function App() {
 
   return (
-    <div className=' grid h-full w-full mx-auto'>
-      <Header  className={`fixed top-0 `} />
+    <div className='flex bg-white gap-10 flex-col h-full w-full '>
+      <Header />
       <Hero />
+      <About/>
       <Products />
       <Projects />
       <Marketing />
