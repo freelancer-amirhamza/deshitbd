@@ -22,7 +22,7 @@ const [isActive,setIsActive] = useState(false);
   }, []);
   console.log(isActive,)
   return (
-    <section className={`fixed ${isActive ? "bg-white text-black shadow-2xl" : "bg-transparent text-white"}  w-full`}>
+    <section className={`fixed ${isActive ? "bg-white text-black shadow-2xl" : "bg-transparent text-white"} z-50 w-full`}>
         <div className="container w-full mx-auto lg:px-16">
             <div className={` flex items-center w-full justify-between py-8`}>
                 <div className=" w-full ">
@@ -33,6 +33,7 @@ const [isActive,setIsActive] = useState(false);
                         <li key={index} className="grid group max-w-max gap-1">
                             <Link to={item.path}>{item.label}</Link>
                             <div  className='bg-white opacity-0 group-hover:opacity-100  h-[1px] w-full'/>
+                            
                         </li>
                     ))}
                 </ul>
