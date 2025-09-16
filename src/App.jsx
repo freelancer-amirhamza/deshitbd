@@ -8,6 +8,7 @@ import Hero from './components/Hero'
 import Marketing from './components/Marketing'
 import Products from './components/Products'
 import Projects from './components/Projects'
+import Technology from './components/Technology'
 import Testimonials from './components/Testimonials'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Products />
       <Projects />
       <Marketing />
+      <Technology/>
       <Testimonials />
       <Clients />
       <Contact />

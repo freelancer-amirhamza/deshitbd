@@ -18,9 +18,42 @@ import group5 from "../assets/Group 1000002605.jpg"
 import group6 from "../assets/Group 1000002706.jpg"
 import group7 from "../assets/Group 1000002725.jpg"
 import group8 from "../assets/Group 1000002726.jpg"
+import content from "../assets/Group 10.jpg"
+import graphic from "../assets/Group 11.jpg"
+import SEO from "../assets/Group 12.jpg"
+import google from "../assets/Group 13.jpg"
+import meta from "../assets/Group 14.jpg"
+import linkedin from "../assets/Group 15.jpg"
+import video from "../assets/Group 16.jpg"
+import digital from "../assets/Group 17.jpg"
+import tiktok from "../assets/Group 18.jpg"
+import skill1 from "../assets/java-coffee-cup-logo--v1.png";
+import skill2 from "../assets/php.png";
+import skill3 from "../assets/node-js.jpg";
+import skill4 from "../assets/python--v1.png";
+import skill5 from "../assets/net-framework.png";
+import skill6 from "../assets/javascript--v1.png";
+import skill7 from "../assets/ruby-programming-language.png";
+import skill8 from "../assets/react.jpg";
+import skill9 from "../assets/vue-js.jpg";
+import skill10 from "../assets/bootstrap.png";
+import skill11 from "../assets/jquery.png";
+import skill12 from "../assets/angularjs.png";
+import skill13 from "../assets/react-native.png";
+import skill14 from "../assets/android-os.png";
+import skill15 from "../assets/flutter.jpg";
+import skill16 from "../assets/kotlin.svg";
+import skill17 from "../assets/nextjs.png";
+import skill18 from "../assets/mac-os.png";
+import testimonial1 from "../assets/ESBO-logo.jpg"
+
+
+
 
 
 export {
     mobile1,mobile2,mobile3,mobile4,mobile5,mobile6,mobile7,mobile8,mobile9,about1,about2,about3,
-    group1,group2,group3,group4,group5,group6,group7,group8,
+    group1,group2,group3,group4,group5,group6,group7,group8,content,SEO,graphic,google,meta,linkedin,video,digital,tiktok,
+    skill1,skill2,skill3,skill10,skill11,skill12,skill13,skill14,skill15,skill16,skill4,skill5,skill6,skill7,skill8,skill9,skill17,skill18,
+    testimonial1,
 }
