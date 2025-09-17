@@ -18,6 +18,11 @@ body {
   box-sizing: border-box;
 
 }
+@theme{
+  --color-primary:#FA7870;
+  --color-secondary:#FA8A70;
+
+}
 .section{
   width: 100vh;
   display: block;
