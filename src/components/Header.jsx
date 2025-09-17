@@ -57,7 +57,7 @@ const Header = () => {
         <div className="flex-1"/>
       </div>
       {/* navbar for small device */}
-      <div className={`${isOpen ? "min-w-[20rem] opacity-100" : "min-w-0 opacity-0"} absolute  transition-all top-0 h-screen bg-white`}>
+      <div className={`${isOpen ? "min-w-[20rem] opacity-100 ml-0" : "min-w-0 opacity-0  -ml-40"} absolute  transition-all top-0 h-screen bg-white`}>
         <div className="grid ">
           <button onClick={() => setIsOpen(!isOpen)} className="text-slate-600 w-full items-center gap-2 cursor-pointer flex justify-end p-8  text-2xl">
             <span className="text-base font-medium text-neutral-400">Close</span>

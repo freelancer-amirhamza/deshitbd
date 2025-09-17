@@ -1,8 +1,7 @@
 import React from 'react'
-import image from "../assets/ESBO-logo.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper/modules'
-import { testimonials } from '../config'
+import { Autoplay, Navigation } from 'swiper/modules'
+import { clients, testimonials } from '../config'
 import 'swiper/css';
 // import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -11,23 +10,39 @@ const Clients = () => {
     <section className="w-full h-full items-center bg-[#f8cdc93d] py-15 justify-center">
       <div className="w-full flex flex-col items-center justify-center gap-5">
         <h1 className="text-lg font-medium uppercase text-[#fa7b70]"> Testimonial</h1>
-        <h1 className="text-5xl font-bold  text-neutral-700 "> What our client say about us</h1>
-        <div className="flex w-full max-w-3/5 mx-auto justify-center items-center h-full">
+        <h1 className="text-5xl font-bold  text-neutral-700 "></h1>
+        <div className="flex w-full max-w-4/5  mx-auto justify-center items-center h-full">
           <Swiper
-            slidesPerView={5}
-            spaceBetween={20}
-            loop={true}
-            pagination={{
-              clickable: true,
+            spaceBetween={0}
+            slidesPerView={7}
+            autoplay={{
+              delay:0,
+              disableOnInteraction: false,
+            pauseOnMouseEnter: true,
             }}
-            navigation={true}
-            modules={[Navigation]}
-            // className='flex w-full h-full justify-center mySwiper  items-center '
+            modules={[Autoplay]}
+            loop={true}
+             speed={5000}
+          breakpoints={{
+            320: {
+              slidesPerView: 2,
+            },
+            640: {
+              slidesPerView: 3,
+            },
+            768: {
+              slidesPerView: 5,
+            },
+            1024: {
+              slidesPerView: 6,
+            },
+          }}
+            className='flex w-full h-full justify-center client  items-center '
           >
-            {testimonials.map((item, index) => (
-                <SwiperSlide
-             className="bg-white p-10 flex flex-col w-full  items-center  justify-center rounded-3xl max-w-3/4 ">
-            <img src={image} alt="" className="w-full flex mx-auto max-w-40 " />
+            {clients.map((item, index) => (
+              <SwiperSlide key={index}
+             className=" p-5 flex max-w-40 bg-white/140 backdrop-blur-sm  max-h-20 transition-all duration-300 hover:bg-white/50 hover:scale-105  items-center  justify-center rounded-3xl w-full ">
+            <img src={item} alt="" className="w-full flex mx-auto max-w-fit " />
           </SwiperSlide>
              ))}
           </Swiper>

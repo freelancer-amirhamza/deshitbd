@@ -24,7 +24,7 @@ body {
 
 }
 .section{
-  width: 100vh;
+  height: 100vh;
   display: block;
 }
 
@@ -39,25 +39,35 @@ body {
     justify-content: center !important;
     align-items: center !important;
     margin: 0 auto;
+    padding: 20px 0;
 }
 .mySwiper {
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 
 }
 .swiper-slide{
   width: 100% !important;
   max-width: 100% !important;
   justify-content: center !important;
-    align-items: center !important;
+  align-items: center !important;
+}
+.client .swiper-slide{
+  width: 100% !important;
+  max-width: 180px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.client .swiper-slide:hover {
+  transform: translateY(-5px);
 }
 
 .swiper-wrapper {
   width: 100% !important;
-  gap: 40px !important;
-
 }
 
 .swiper-button-next,

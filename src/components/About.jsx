@@ -3,7 +3,7 @@ import { about_contents } from '../config'
 
 const About = () => {
   return (
-    <section className='flex h-full my-20  w-full '>
+    <section className='flex h-full my-20 z-10 w-full '>
         {/* about details starts */}
         <div className="flex flex-col lg:flex-row gap-10 container  mx-auto h-full w-full ">
         {/* content text */}

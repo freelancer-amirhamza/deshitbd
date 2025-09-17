@@ -46,6 +46,16 @@ import skill16 from "../assets/kotlin.svg";
 import skill17 from "../assets/nextjs.png";
 import skill18 from "../assets/mac-os.png";
 import testimonial1 from "../assets/ESBO-logo.jpg"
+import testimonial2 from "../assets/r11.png"
+import testimonial3 from "../assets/SM-Black.png"
+import testimonial4 from "../assets/r12.png"
+
+import client1 from "../assets/ESBO-logo.jpg"
+import client2 from "../assets/Group 1000002706.jpg"
+import client3 from "../assets/retina.jpg"
+import client4 from "../assets/Tabscanner Receipt OCR API.jpg"
+// import client1 from "../assets/ESBO-logo.jpg"
+// import client1 from "../assets/ESBO-logo.jpg"
 
 
 
@@ -55,5 +65,5 @@ export {
     mobile1,mobile2,mobile3,mobile4,mobile5,mobile6,mobile7,mobile8,mobile9,about1,about2,about3,
     group1,group2,group3,group4,group5,group6,group7,group8,content,SEO,graphic,google,meta,linkedin,video,digital,tiktok,
     skill1,skill2,skill3,skill10,skill11,skill12,skill13,skill14,skill15,skill16,skill4,skill5,skill6,skill7,skill8,skill9,skill17,skill18,
-    testimonial1,
+    testimonial1,testimonial2,testimonial3,testimonial4,client1,client2,client3,client4
 }

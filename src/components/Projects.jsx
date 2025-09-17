@@ -5,7 +5,11 @@ const Projects = () => {
     return (
     <section className="w-full flex h-full">
       <div className="container w-full flex flex-col items-center justify-between mx-auto gap-12">
-        <h1 className="text-5xl font-bold text-blue-950">Our Projects</h1>
+        <div className="text-5xl font-semibold text-center z-30 ">
+          <span className="text-blue-950 "> Our</span>
+          <span className="text-primary "> Developed</span>
+          <span className="text-blue-950 "> Projects</span>
+        </div>
         <div className="">
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-20 gap-x-10 mb-20">
             {products.map((product,index)=>(

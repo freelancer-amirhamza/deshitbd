@@ -30,7 +30,14 @@ import {
     skill13,
     skill18,
     skill14,
-    testimonial1
+    testimonial1,
+    testimonial2,
+    testimonial3,
+    testimonial4,
+    client1,
+    client2,
+    client3,
+    client4
 } from "../assets/index.js"
 export const nav_items = [
     {label:"Home",path:"/",},
@@ -165,24 +172,21 @@ export const testimonials = [
      position:"Ceo",
      company:"ESBO IT LD",
   },
-   {image:testimonial1,
+   {image:testimonial2,
      description: "DeshIT-BD exceeded our expectations with their expertise and professionalism in delivering a high-quality app within the agreed timeline and budget. Highly recommended for their exceptional post-launch support. ",
      position:"Ceo",
-     company:"ESBO IT LD",
+     company:"Rural Dreams",
   },
-   {image:testimonial1,
+   {image:testimonial3,
      description: "DeshIT-BD exceeded our expectations with their expertise and professionalism in delivering a high-quality app within the agreed timeline and budget. Highly recommended for their exceptional post-launch support. ",
      position:"Ceo",
-     company:"ESBO IT LD",
+     company:"Squirrel Media",
   },
-   {image:testimonial1,
+  {image:testimonial4,
      description: "DeshIT-BD exceeded our expectations with their expertise and professionalism in delivering a high-quality app within the agreed timeline and budget. Highly recommended for their exceptional post-launch support. ",
      position:"Ceo",
-     company:"ESBO IT LD",
-  },
-   {image:testimonial1,
-     description: "DeshIT-BD exceeded our expectations with their expertise and professionalism in delivering a high-quality app within the agreed timeline and budget. Highly recommended for their exceptional post-launch support. ",
-     position:"Ceo",
-     company:"ESBO IT LD",
+     company:"World Class Cargo & Logistics",
   },
 ]
+
+export const clients = [testimonial1,testimonial2,testimonial3,testimonial4,client1,client2,client3,client4]

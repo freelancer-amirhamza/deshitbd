@@ -19,10 +19,3 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-git init
-
-git add .
-
-git commit -m "update"
-
-git push
