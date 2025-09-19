@@ -15,7 +15,16 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
+<!-- install all plugin -->
 
+npm install
+
+
+npm run dev // run project 
+
+
+
+npm run build  /// for build project
 
 
 
