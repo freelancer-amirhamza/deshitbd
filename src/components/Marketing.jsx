@@ -1,10 +1,11 @@
 import { marketingServices } from '../config';
 import * as motion from "motion/react-client"
+
 const Marketing = () => {
 
   return (
-    <div className=" flex flex-col items-center relative gap-30 w-full h-full overflow-hidden z-30 md:min-h-[150vh] sm:min-h-[135vh] min-h-[90vh]  ">
-      <div className=" z-40 flex flex-col gap-5 items-center max-w-2/4  justify-center mx-auto">
+    <div className=" flex flex-col items-center relative gap-30 w-full h-full overflow-hidden z-10 md:min-h-[150vh] sm:min-h-[135vh] min-h-[90vh]  ">
+      <div className=" z-10 flex flex-col gap-5 items-center max-w-2/4  justify-center mx-auto">
         <div className="text-4xl font-bold text-center ">
           <span className="text-primary "> Digital</span>
           <span className="text-blue-950 "> Marketing</span>
@@ -78,6 +79,7 @@ const Marketing = () => {
           </>
         ))}
       </motion.div>
+
     </div>
   );
 }
