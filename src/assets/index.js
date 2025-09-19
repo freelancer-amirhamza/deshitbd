@@ -56,6 +56,13 @@ import client3 from "../assets/retina.jpg"
 import client4 from "../assets/Tabscanner Receipt OCR API.jpg"
 // import client1 from "../assets/ESBO-logo.jpg"
 // import client1 from "../assets/ESBO-logo.jpg"
+import group9 from "../assets/Group 1000002828.jpg"
+import group10 from "../assets/Group 1000002828-1.jpg"
+import group11 from "../assets/Group 1000002828-2.jpg"
+import group12 from "../assets/Group 1000002828-3.jpg"
+import group13 from "../assets/Group 1000002828-4.jpg"
+import group14 from "../assets/Group 1000002828-5.jpg"
+import group15 from "../assets/Group 1000002828.jpg"
 
 
 
@@ -65,5 +72,5 @@ export {
     mobile1,mobile2,mobile3,mobile4,mobile5,mobile6,mobile7,mobile8,mobile9,about1,about2,about3,
     group1,group2,group3,group4,group5,group6,group7,group8,content,SEO,graphic,google,meta,linkedin,video,digital,tiktok,
     skill1,skill2,skill3,skill10,skill11,skill12,skill13,skill14,skill15,skill16,skill4,skill5,skill6,skill7,skill8,skill9,skill17,skill18,
-    testimonial1,testimonial2,testimonial3,testimonial4,client1,client2,client3,client4
+    testimonial1,testimonial2,testimonial3,testimonial4,client1,client2,client3,client4,group9,group10,group11,group12,group13,group14,group15,
 }

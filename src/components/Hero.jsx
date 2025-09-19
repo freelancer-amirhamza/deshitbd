@@ -8,6 +8,7 @@ import { Autoplay, Navigation, Pagination, } from 'swiper/modules'
 import 'swiper/css';
 // import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { motion } from 'framer-motion'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { hero_slides } from '../config'
@@ -20,7 +21,13 @@ const Hero = () => {
         {/* <img src={Rectangle} className='object-cover flex inset-0 w-full md:hidden  min-h-80 ' alt="" /> */}
         <img src={image} className=' inset-0 object-cover w-full h-full z-10 sm:min-h-[120vh] min-h-[130vh] ' alt="" />
       </div>
-      <img src={circle} alt="" className='absolute z-10 -top-53 -left-44   ' />
+      <motion.img
+      animate={{ y:[1, 20, 1] }}
+      transition={{
+          repeat: Infinity,
+          ease: "easeInOut",
+          duration: 20
+        }} src={circle} alt="" className='absolute z-10 -top-53 -left-44   ' />
       <img src={circle2} alt="" className='absolute top-60 z-0 w-full max-w-[100vh] rotate-65 left-40' />
 
 

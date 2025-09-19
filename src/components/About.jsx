@@ -17,10 +17,29 @@ const About = () => {
         {/* content boxes */}
         <div className="flex flex-col w-full gap-4  py-10 sm:flex-row">
             {about_contents.map((item,index)=>(
+              <div
+              initial={{
+                                y: 0,
+                                x: 20,
+                                opacity: 0,
+                              }}
+                              whileInView={{
+                                x: 0,
+                                y: 0,
+                                opacity: 1,
+                                transition: {
+                                  type: "tween",
+                                  duration: 1,
+                                  delay: 0.3 * index,
+                                  ease: [0.25, 0.25, 0.25, 0.75]
+                                }
+                              }}
+              className="">
                 <div key={index} className="flex flex-col mx-auto p-6 place-items-center sm:max-w-52 w-full  custom-shadow">
                     <img src={item.image} alt="" className="object-scale-down h-fit w-fit" />
                     <span className="text-2xl font-bold text-black">{item.count} </span>
                     <h1 className="text-xl w-full text-center font-semibold text-neutral-400">{item.title} </h1>
+                </div>
                 </div>
             ))}
         </div>

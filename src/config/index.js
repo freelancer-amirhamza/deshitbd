@@ -37,7 +37,17 @@ import {
     client1,
     client2,
     client3,
-    client4
+    client4,
+    group6,
+    group7,
+    group8,
+    group9,
+    group10,
+    group11,
+    group12,
+    group13,
+    group14,
+    group15
 } from "../assets/index.js"
 export const nav_items = [
     {label:"Home",path:"/",},
@@ -76,12 +86,22 @@ export const about_contents = [
 ]
 
 export const products = [
-    {image:group1, title:"Gym management system"},
-    {image:group2,title:"Gym management system"},
-    {image:group3,title:"Gym management system"},
-    {image:group4,title:"Gym management system"},
+    {image:group1, title:"Parcel management system"},
+    {image:group2,title:"Inventory Management system"},
+    {image:group3,title:"School management system"},
+    {image:group4,title:"Transporation management system"},
     {image:group5,title:"Gym management system"},
-    {image:group5,title:"Gym management system"}
+    {image:group6,title:"Gym management system"}
+];
+
+export const services = [
+    {image:group9, title:"Parcel management system"},
+    {image:group10,title:"Inventory Management system"},
+    {image:group11,title:"School management system"},
+    {image:group12,title:"Transporation management system"},
+    {image:group13,title:"Gym management system"},
+    {image:group14,title:"Gym management system"},
+    {image:group15,title:"Gym management system"},
 ];
 
 

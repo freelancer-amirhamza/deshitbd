@@ -1,5 +1,5 @@
 import React from 'react'
-import { products } from '../config'
+import { products, services } from '../config'
 import { motion } from 'framer-motion'
 import circle from "../assets/Ellipse 3.jpg"
 const Services = () => {
@@ -27,7 +27,7 @@ const Services = () => {
         </div>
         <div className="">
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-20 gap-x-10 mb-20">
-            {products.map((product, index) => (
+            {services.map((service, index) => (
               <motion.div
                 initial={{
                   y: 40,
@@ -46,7 +46,7 @@ const Services = () => {
                   }
                 }} className=" ">
                 <li key={index} className="  flex flex-col  items-center w-full justify-center">
-                  <img src={product.image} className="w-full h-full object-scale-down scale-100 hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer" alt="" />
+                  <img src={service.image} className="w-full h-full object-scale-down scale-100 hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer" alt="" />
                   <button className="  bg-blue-950 group -mt-4 z-40 w-full rounded-b-md button-shadow -bottom-8 text-white
                   text-xl font-bold">
                     <motion.span
@@ -56,7 +56,7 @@ const Services = () => {
                       whileHover="hover"
                       style={{ cursor: "pointer" }}
                     >
-                      <div>{product.title}</div>
+                      <div>{service.title}</div>
                       <motion.div
                         variants={childVariants}
                         className="h-0.5 bg-white"
